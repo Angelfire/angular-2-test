@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html'
 })
 
-export class FooterPokemon {
-  text: '&copy; The Pokemon Company';
-}
+export class FooterPokemon {}

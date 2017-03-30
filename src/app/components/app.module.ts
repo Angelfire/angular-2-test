@@ -3,9 +3,9 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from '../components/app.component';
-import { Navbar } from '../components/navbar/navbar.component';
-import { Jumbotron } from '../components/jumbotron/jumbotron.component';
-import { FooterPokemon } from '../components/footer/footer.component';
+import { Navbar } from './navbar/navbar.component';
+import { Jumbotron } from './jumbotron/jumbotron.component';
+import { FooterPokemon } from './footer/footer.component';
 
 import { PokeapiService } from '../services/pokeapi.service';
 
