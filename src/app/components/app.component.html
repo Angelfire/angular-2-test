@@ -8,7 +8,6 @@
           class="img-responsive center-block"
           (load)="p.imageLoaded = true"
           src="{{p.sprite}}"
-          [ngStyle]="{'height': p.src | imageHeight:250}"
         >
         <p class={{p.name}}>{{ p.name }}</p>
       </a>
